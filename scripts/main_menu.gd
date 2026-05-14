@@ -9,7 +9,7 @@ func _ready():
 
 	# タイトル
 	var title = Label.new()
-	title.text = "MONITOR SYSTEM"
+	title.text = "MONITOR SYSTEM 2"
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title.position = Vector2(0, 120)
 	title.size = Vector2(1280, 50)
