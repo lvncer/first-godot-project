@@ -12,7 +12,6 @@ func _ready():
 	label.add_theme_font_size_override("font_size", 32)
 	add_child(label)
 
-
 	# RETURNボタン
 	var start_button = Button.new()
 	start_button.text = "RETURN"
