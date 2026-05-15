@@ -7,14 +7,14 @@ func _ready():
 	add_child(bg)
 
 	var label = Label.new()
-	label.text = "HELLO, GODOT!"
+	label.text = "RESULT"
 	label.position = Vector2(0, 120)
 	label.add_theme_font_size_override("font_size", 32)
 	add_child(label)
 
 	# RETURNボタン
 	var start_button = Button.new()
-	start_button.text = "NEXT"
+	start_button.text = "RETURN"
 	start_button.position = Vector2(540, 300)
 	start_button.size = Vector2(200, 60)
 	start_button.pressed.connect(_on_start_pressed)
@@ -22,4 +22,4 @@ func _ready():
 
 
 func _on_start_pressed():
-	get_tree().change_scene_to_file("res://scenes/result.tscn")
+	get_tree().change_scene_to_file("res://scenes/main.tscn")

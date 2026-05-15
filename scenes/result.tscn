@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dt0oltu6jb7xi"]
+
+[ext_resource type="Script" uid="uid://u3tn3fpa1w3b" path="res://scenes/result.gd" id="1_aqgun"]
+
+[node name="Control" type="Control" unique_id=275152344]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aqgun")
